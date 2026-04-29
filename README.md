@@ -65,6 +65,11 @@ peru_d
 ggplot(data = peru_d) +
   geom_sf()
 ```
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/ca960acb-0e5f-47e8-a6b0-4f37b6b85df7" width="533" alt="Mapa de malaria en Perú">
+  <br>
+  <em>Figura 1: Mapa base de departamentos de Perú</em>
+</p>
 
 ## Carga y exploración de los datos de malaria
 A continuación, cargamos la base de datos con los casos de malaria reportados entre 2009 y 2024, usando read_csv(). Es importante explorar su contenido para entender qué variables tenemos disponibles y qué valores contienen. Por ejemplo, revisamos las primeras filas, los nombres de las columnas y la distribución de los tipos de enfermedad.
@@ -135,4 +140,8 @@ ggplot(datos) +
 
 ```
 
-
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/afb41821-6cd8-414c-a66a-6e7ffb1b0366" width="632" alt="Mapa de calor de malaria en Perú">
+  <br>
+  <em>Figura 2: Mapa de calor de casos de malaria por departamento en Perú (2009-2024)</em>
+</p>
